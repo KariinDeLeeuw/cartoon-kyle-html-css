@@ -23,6 +23,13 @@ body {
   position: relative;
 }
 
+.kyle__face {
+  width: 47rem;
+  height: 45rem;
+  background-color: #fcdab3;
+  border-radius: 50%;
+}
+
 @media (min-width: 62.5rem) {
   /* 1000px */
   .kyle {
