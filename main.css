@@ -110,10 +110,18 @@ body {
   position: absolute;
   border-radius: 50%;
   bottom: -93%;
-  left: -14%;
-  transform: rotate(23deg);
   border: 0.3rem solid transparent;
   border-top: 0.3rem solid black;
+}
+
+.kyle__flap--left {
+  left: -14%;
+  transform: rotate(23deg);
+}
+
+.kyle__flap--right {
+  right: -14%;
+  transform: rotate(-23deg);
 }
 
 @media (min-width: 62.5rem) {
