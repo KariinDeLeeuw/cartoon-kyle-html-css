@@ -67,6 +67,18 @@ body {
   left: 3rem;
 }
 
+.kyle__mouth {
+  height: 2rem;
+  width: 9rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) rotate(2deg);
+  bottom: 6rem;
+  border: 0.4rem solid transparent;
+  border-top: 0.4rem solid black;
+}
+
 @media (min-width: 62.5rem) {
   /* 1000px */
   .kyle {
