@@ -124,6 +124,27 @@ body {
   transform: rotate(-23deg);
 }
 
+.kyle__frontFlap {
+  width: 39rem;
+  height: 14rem;
+  background-color: #239c38;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%) translateY(20%);
+}
+
+.kyle__cutout {
+  width: 100%;
+  position: absolute;
+  height: 7rem;
+  background-color: #fcdab3;
+  border-radius: 50%;
+  bottom: -5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 @media (min-width: 62.5rem) {
   /* 1000px */
   .kyle {
