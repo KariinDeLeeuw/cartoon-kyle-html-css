@@ -49,6 +49,24 @@ body {
   transform: rotate(-20deg) translateY(-62%);
 }
 
+.kyle__innerEye {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.kyle__innerEye--left {
+  top: 6.3rem;
+  right: 3rem;
+}
+
+.kyle__innerEye--right {
+  top: 6.5rem;
+  left: 3rem;
+}
+
 @media (min-width: 62.5rem) {
   /* 1000px */
   .kyle {
