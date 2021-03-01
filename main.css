@@ -90,6 +90,30 @@ body {
   transform: rotate(22deg);
 }
 
+.kyle__hat {
+  width: 45rem;
+  height: 20rem;
+  background-color: #57c523;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  top: -12%;
+}
+
+.kyle__flap {
+  width: 9rem;
+  height: 22rem;
+  background-color: #57c523;
+  position: absolute;
+  border-radius: 50%;
+  bottom: -93%;
+  left: -14%;
+  transform: rotate(23deg);
+}
+
 @media (min-width: 62.5rem) {
   /* 1000px */
   .kyle {
