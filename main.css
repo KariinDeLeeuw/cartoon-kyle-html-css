@@ -30,6 +30,25 @@ body {
   border-radius: 50%;
 }
 
+.kyle__eye {
+  width: 13rem;
+  height: 15rem;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  border-radius: 50%;
+}
+
+.kyle__eye--left {
+  left: 5.5rem;
+  transform: rotate(30deg) translateY(-70%);
+}
+
+.kyle__eye--right {
+  right: 6.7rem;
+  transform: rotate(-20deg) translateY(-62%);
+}
+
 @media (min-width: 62.5rem) {
   /* 1000px */
   .kyle {
