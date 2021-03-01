@@ -132,6 +132,7 @@ body {
   bottom: 5%;
   left: 50%;
   transform: translateX(-50%) translateY(20%);
+  z-index: -2;
 }
 
 .kyle__cutout {
@@ -143,6 +144,7 @@ body {
   bottom: -5rem;
   left: 50%;
   transform: translateX(-50%);
+  z-index: -1;
 }
 
 @media (min-width: 62.5rem) {
