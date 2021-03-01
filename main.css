@@ -112,6 +112,8 @@ body {
   bottom: -93%;
   left: -14%;
   transform: rotate(23deg);
+  border: 0.3rem solid transparent;
+  border-top: 0.3rem solid black;
 }
 
 @media (min-width: 62.5rem) {
