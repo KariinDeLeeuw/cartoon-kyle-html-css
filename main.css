@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 1rem === 10px */
+}
+
+/* Hele body is even hoog als het scherm dat je ziet. Zo kan ik de cartoon ten alle tijden in het midden afbeelden, ongeacht de grootte van de scherm van de gebruiker.*/
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left, #00cdac, #02aab0);
+}
+
+.kyle {
+  position: relative;
+}
+
+@media (min-width: 62.5rem) {
+  /* 1000px */
+  .kyle {
+    transform: scale(1); /* originele grootte */
+  }
+}
